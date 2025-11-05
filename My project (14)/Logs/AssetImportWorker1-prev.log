@@ -15,7 +15,7 @@ C:/Users/aluno.unilasalle/Documents/GitHub/Jogo-Abisurdo-2d/My project (14)
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49845
+50208
 Successfully changed project path to: C:/Users/aluno.unilasalle/Documents/GitHub/Jogo-Abisurdo-2d/My project (14)
 C:/Users/aluno.unilasalle/Documents/GitHub/Jogo-Abisurdo-2d/My project (14)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/aluno.unilasalle/Documents/GitHub/Jogo-Abisurdo-2d/My project (14)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8904] Host "[IP] 10.10.5.239 [Port] 0 [Flags] 2 [Guid] 1327378208 [EditorId] 1327378208 [Version] 1048832 [Id] WindowsEditor(7,LB113UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11540] Host "[IP] 10.10.5.239 [Port] 0 [Flags] 2 [Guid] 2198196731 [EditorId] 2198196731 [Version] 1048832 [Id] WindowsEditor(7,LB113UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8904] Host "[IP] 10.10.5.239 [Port] 0 [Flags] 2 [Guid] 1327378208 [EditorId] 1327378208 [Version] 1048832 [Id] WindowsEditor(7,LB113UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11540] Host "[IP] 10.10.5.239 [Port] 0 [Flags] 2 [Guid] 2198196731 [EditorId] 2198196731 [Version] 1048832 [Id] WindowsEditor(7,LB113UNI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 9.01 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -70,18 +70,18 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006913 seconds.
+Registered in 0.007579 seconds.
 - Loaded All Assemblies, in  0.261 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.201 seconds
-Domain Reload Profiling: 460ms
+- Finished resetting the current domain, in  0.203 seconds
+Domain Reload Profiling: 463ms
 	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
@@ -91,24 +91,24 @@ Domain Reload Profiling: 460ms
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (101ms)
-		LoadAssemblies (80ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (99ms)
-			TypeCache.Refresh (98ms)
+			TypeCache.Refresh (97ms)
 				TypeCache.ScanAssembly (88ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (201ms)
+	FinalizeReload (203ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (158ms)
+		SetupLoadedEditorAssemblies (160ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadAttributes (112ms)
 			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -117,52 +117,52 @@ Domain Reload Profiling: 460ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.484 seconds
-Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.456 seconds
-Domain Reload Profiling: 937ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 969ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (314ms)
-		LoadAssemblies (249ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (268ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (104ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (103ms)
 				TypeCache.ScanAssembly (93ms)
 			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (457ms)
+	FinalizeReload (466ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (340ms)
+		SetupLoadedEditorAssemblies (350ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 6.58 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4182 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (61.0 KB). Loaded Objects now: 4644.
-Memory consumption went from 148.1 MB to 148.1 MB.
-Total: 2.840300 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.400100 ms  DeleteObjects: 0.116100 ms)
+Unloading 66 unused Assets / (61.4 KB). Loaded Objects now: 4644.
+Memory consumption went from 148.2 MB to 148.1 MB.
+Total: 2.683700 ms (FindLiveObjects: 0.212200 ms CreateObjectMapping: 0.108500 ms MarkObjects: 2.258200 ms  DeleteObjects: 0.103700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,9 +179,477 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1020.635564 seconds.
-  path: Assets/Sunny Land Forest Assets/Artwork/Environment
-  artifactKey: Guid(247f99824090f46c28786894c8d359d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sunny Land Forest Assets/Artwork/Environment using Guid(247f99824090f46c28786894c8d359d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b26cd83e92fbf6073ce93398658fb') in 0.001802 seconds
+  Time since last request: 1290.231220 seconds.
+  path: Assets/Sunny Land Forest Assets/Scenes/demo.unity
+  artifactKey: Guid(27a6063c237cf459f9f5c6894b68dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Scenes/demo.unity using Guid(27a6063c237cf459f9f5c6894b68dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2dee22df716a02ee3de38316a85808') in 0.002323 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.559858 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_1.asset
+  artifactKey: Guid(d8d696053d45433459bc0942e6535bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_1.asset using Guid(d8d696053d45433459bc0942e6535bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a450b7200f582a39670b276260f347c3') in 0.084826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_26.asset
+  artifactKey: Guid(0b70cfc179526a24584aec0c9a7afee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_26.asset using Guid(0b70cfc179526a24584aec0c9a7afee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0a100b205b69ab10d26f086c615267') in 0.017393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_23.asset
+  artifactKey: Guid(3af1142797179734da4d8130d300ab1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_23.asset using Guid(3af1142797179734da4d8130d300ab1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95209866a447096b075fe8df6af6593c') in 0.016787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_7.asset
+  artifactKey: Guid(3495472807bbe9945af8e8ff01533713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_7.asset using Guid(3495472807bbe9945af8e8ff01533713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3813175ef95cbc4510e5c59921cbf96d') in 0.016174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_45.asset
+  artifactKey: Guid(59dc50bf10d2ce949859641a31841a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_45.asset using Guid(59dc50bf10d2ce949859641a31841a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174213238b7cff7d26a71496ba948d0f') in 0.015095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_41.asset
+  artifactKey: Guid(4b687a41a55b35841ae60a0e34b5800e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_41.asset using Guid(4b687a41a55b35841ae60a0e34b5800e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747c8c72217fd1a4a2e3f889c021bbdc') in 0.014468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_32.asset
+  artifactKey: Guid(2e660e5312bce6b4f8d0a1e437f1a8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_32.asset using Guid(2e660e5312bce6b4f8d0a1e437f1a8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e509598998a764b5288279061ef7c3') in 0.014166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_38.asset
+  artifactKey: Guid(3a3c68ddf4463ab459d7e6f42abbbf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_38.asset using Guid(3a3c68ddf4463ab459d7e6f42abbbf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460635a16d561b0cdb2071feb6fd733a') in 0.007572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_60.asset
+  artifactKey: Guid(6ed1ef261b6da8d4781feef5cf101779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_60.asset using Guid(6ed1ef261b6da8d4781feef5cf101779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652cca1a3d8f3be243f838243857493a') in 0.013609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_10.asset
+  artifactKey: Guid(d31258c6e2bf71e4cb7624af1a7b3bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_10.asset using Guid(d31258c6e2bf71e4cb7624af1a7b3bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689d6fd7610ce201aefb0174c068c674') in 0.014705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_31.asset
+  artifactKey: Guid(b929bbe1370a85a4bb6ab7ce902e345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_31.asset using Guid(b929bbe1370a85a4bb6ab7ce902e345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4674e63beabfae9d1ffd06684b398c10') in 0.014569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_43.asset
+  artifactKey: Guid(077641f08b9c6fe47b6164f076074d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_43.asset using Guid(077641f08b9c6fe47b6164f076074d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b1fdffcbfc428de6a57d54d79493b4') in 0.017391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_4.asset
+  artifactKey: Guid(f548610a53bf85549bb9a962a66de2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_4.asset using Guid(f548610a53bf85549bb9a962a66de2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9808ea6a3e758bd028e13110c2b68c') in 0.013402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_49.asset
+  artifactKey: Guid(665057beb8096d6448d2930d526b17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_49.asset using Guid(665057beb8096d6448d2930d526b17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9aaf639b427e5743e8d620c77bc920') in 0.013603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_19.asset
+  artifactKey: Guid(07f1936298634414aa0f0be543e364ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_19.asset using Guid(07f1936298634414aa0f0be543e364ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4608b96cc106b7f29b330addd661af94') in 0.013297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_8.asset
+  artifactKey: Guid(c0c9af0761dfdcf4da5f87f7fe91d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_8.asset using Guid(c0c9af0761dfdcf4da5f87f7fe91d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ab88119203cf674aecb4ee61850055') in 0.014400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_65.asset
+  artifactKey: Guid(fc665cb1b506e0a41b9c9057c293fbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_65.asset using Guid(fc665cb1b506e0a41b9c9057c293fbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a9cfd4340fb8fb6f14512c6591aaf1') in 0.015147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_58.asset
+  artifactKey: Guid(83b6a861b4c4c474283773e86a7df9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_58.asset using Guid(83b6a861b4c4c474283773e86a7df9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7591d3a239da9ce0ca2925c4e70b9382') in 0.014456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_39.asset
+  artifactKey: Guid(536e1439c28fae34fbdf9738a5ed7d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_39.asset using Guid(536e1439c28fae34fbdf9738a5ed7d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2c20b4052e5d2166d29f0f35be3679') in 0.004337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_30.asset
+  artifactKey: Guid(a431fbc6d8938364ba5a902297b3b497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_30.asset using Guid(a431fbc6d8938364ba5a902297b3b497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5fbe1118495f204c59476a1b8e1687') in 0.004478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_16.asset
+  artifactKey: Guid(1824d48801eb21d49a67570d92fa3592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_16.asset using Guid(1824d48801eb21d49a67570d92fa3592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919bc36f2e3ac81a2c1b61b0351ed642') in 0.012323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_29.asset
+  artifactKey: Guid(1accfe7c852023248a2f8ca0b0439d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_29.asset using Guid(1accfe7c852023248a2f8ca0b0439d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa48de2deee0c75a3907bae5e2213f1d') in 0.013242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_53.asset
+  artifactKey: Guid(fe7e28f60071b454fa7a82b85e7da7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_53.asset using Guid(fe7e28f60071b454fa7a82b85e7da7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7c09d9bb181e578e0207a38fa0aec3') in 0.013705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_11.asset
+  artifactKey: Guid(1db83909f1f9c224ab045fa40f05ca76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_11.asset using Guid(1db83909f1f9c224ab045fa40f05ca76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d83521f2aa7114f41249bceb7d0f893') in 0.014279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_57.asset
+  artifactKey: Guid(c665669251f4df74480ecb07adf437c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_57.asset using Guid(c665669251f4df74480ecb07adf437c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e0544490b8f9174e3d416f5d0c9631') in 0.014601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_34.asset
+  artifactKey: Guid(e8244ff64dc5f53499f0a8b34f15d67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_34.asset using Guid(e8244ff64dc5f53499f0a8b34f15d67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea8b920bd4b2a4a867fa0b20bdbd733') in 0.005717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_61.asset
+  artifactKey: Guid(b2c376ad21951eb4cba85521deb4ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_61.asset using Guid(b2c376ad21951eb4cba85521deb4ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ec8abf47daa7ead135b515ed3939fe') in 0.004251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_14.asset
+  artifactKey: Guid(874afe9f54088c84dae8cccc13da7bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_14.asset using Guid(874afe9f54088c84dae8cccc13da7bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6d86b39be65c138e6615461c6037fd') in 0.004044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_37.asset
+  artifactKey: Guid(86a835f2dedbc9a4889d1e2640ba0af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_37.asset using Guid(86a835f2dedbc9a4889d1e2640ba0af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fb836ece0574f6cb630c3d8b562486') in 0.022045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_6.asset
+  artifactKey: Guid(8f9a2a30eb36b8a4297284749c1ebf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_6.asset using Guid(8f9a2a30eb36b8a4297284749c1ebf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2dc985c99c01f609307c384f8e1f67') in 0.014629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_71.asset
+  artifactKey: Guid(5c0162933f2ff00468c4d06b394e6ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_71.asset using Guid(5c0162933f2ff00468c4d06b394e6ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2085b42832eadffa5c60e431137f9408') in 0.004616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_2.asset
+  artifactKey: Guid(a33bc495884c48d4c901bb9dac5ff958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_2.asset using Guid(a33bc495884c48d4c901bb9dac5ff958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10a4aa4abade904ce78857bbebc61ad') in 0.014956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_17.asset
+  artifactKey: Guid(c2062fd015822a44eb1859ba190fa884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_17.asset using Guid(c2062fd015822a44eb1859ba190fa884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734c866f655aad72a90302448324701a') in 0.017423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_52.asset
+  artifactKey: Guid(55d476be2379e6f498e9b6f406846926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_52.asset using Guid(55d476be2379e6f498e9b6f406846926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb24a56f35d027b4f555d65983a0aa4') in 0.005104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_13.asset
+  artifactKey: Guid(96e8cbfd1f9d3b544a0f0f2adf0f0760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_13.asset using Guid(96e8cbfd1f9d3b544a0f0f2adf0f0760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2767f2d651f88e481f077562d32a2b') in 0.004513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_35.asset
+  artifactKey: Guid(9061b2463309a8b4f958108f38fbee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_35.asset using Guid(9061b2463309a8b4f958108f38fbee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca96b15dfdbd84f4d879b1f1bdb04a4') in 0.003971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_50.asset
+  artifactKey: Guid(7e3d3af89b936d549811cc19c4b893a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_50.asset using Guid(7e3d3af89b936d549811cc19c4b893a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3aaae80caf95ba9b699133b7bca0d31') in 0.014843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_9.asset
+  artifactKey: Guid(163ff7653858876438aebd73cd924f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_9.asset using Guid(163ff7653858876438aebd73cd924f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612458d676284b7a0c3f917686e4890c') in 0.016172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_12.asset
+  artifactKey: Guid(6db7bdbc0ec56e74bab696aa5e1b74e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_12.asset using Guid(6db7bdbc0ec56e74bab696aa5e1b74e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f2da8a3d0b2fe8f00b3e29b3c51468') in 0.005207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_27.asset
+  artifactKey: Guid(a82666ab7767a6048a6df1fa729461fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_27.asset using Guid(a82666ab7767a6048a6df1fa729461fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68982debeb353defc01a1b4c719d1a5') in 0.016210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.195298 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_76.asset
+  artifactKey: Guid(0ccd4e0efca677a47935b8eccf1cd832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_76.asset using Guid(0ccd4e0efca677a47935b8eccf1cd832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81251e6a0abee43ab160ba1a487d6728') in 0.019187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_87.asset
+  artifactKey: Guid(598e74d6bc7386b41800e46cbdc2d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_87.asset using Guid(598e74d6bc7386b41800e46cbdc2d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd747f51b4e87ee0e2a1abb340d24684') in 0.015888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_86.asset
+  artifactKey: Guid(301dcf1f76c316c458f9609bbc9ecd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_86.asset using Guid(301dcf1f76c316c458f9609bbc9ecd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0535a40dbadc6e074336f1484ac5d8') in 0.016426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_81.asset
+  artifactKey: Guid(8cde72ba53d096b409aa00188fdc321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_81.asset using Guid(8cde72ba53d096b409aa00188fdc321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f74b8185045ebe9651914333856df6') in 0.015679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_78.asset
+  artifactKey: Guid(db60a06826740464e89716db97d42f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_78.asset using Guid(db60a06826740464e89716db97d42f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d76b944827f2acc98b902222e26c76c') in 0.014017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_98.asset
+  artifactKey: Guid(742314497e5f64c49a1698613d475faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_98.asset using Guid(742314497e5f64c49a1698613d475faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf6f1efda2386c2e00fab6a0f88393c') in 0.014192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_103.asset
+  artifactKey: Guid(59a12f68e39c84c408346b27f6aebacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_103.asset using Guid(59a12f68e39c84c408346b27f6aebacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf4bb97146d2fa58705a23ae0ae0904') in 0.014986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_102.asset
+  artifactKey: Guid(cdabe00313f87484b9cb0320a154eac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_102.asset using Guid(cdabe00313f87484b9cb0320a154eac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5c3e6aeb45fb9bca988cf6e7e6996e') in 0.016726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_89.asset
+  artifactKey: Guid(449e330cd74ca1349a83c25e861cf22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/TileMap/tileset_89.asset using Guid(449e330cd74ca1349a83c25e861cf22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c0850e273b42b4502c76d3db692bb6') in 0.014082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.837492 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/props/plant.png
+  artifactKey: Guid(5f8faaf7bc08f478fa9d600f48632355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/props/plant.png using Guid(5f8faaf7bc08f478fa9d600f48632355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cd15b2fa978f17c670c6489c332112') in 0.042284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 1256ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 7.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (35.2 KB). Loaded Objects now: 4658.
+Memory consumption went from 151.5 MB to 151.5 MB.
+Total: 3.787200 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.306900 ms MarkObjects: 3.081800 ms  DeleteObjects: 0.073900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
