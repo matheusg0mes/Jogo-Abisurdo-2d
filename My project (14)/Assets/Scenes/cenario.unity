@@ -27342,7 +27342,11 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1042298944
+=======
+--- !u!1 &999877032
+>>>>>>> parent of 8152b32 (muita coisa)
 =======
 --- !u!1 &999877032
 >>>>>>> parent of 8152b32 (muita coisa)
@@ -27358,6 +27362,7 @@ GameObject:
   m_Component:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1042298951}
   - component: {fileID: 1042298950}
   - component: {fileID: 1042298949}
@@ -27370,11 +27375,16 @@ GameObject:
 =======
 =======
 >>>>>>> parent of 8152b32 (muita coisa)
+=======
+>>>>>>> parent of 8152b32 (muita coisa)
   - component: {fileID: 999877033}
   - component: {fileID: 999877034}
   m_Layer: 0
   m_Name: A8 (1)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 8152b32 (muita coisa)
+=======
 >>>>>>> parent of 8152b32 (muita coisa)
 =======
 >>>>>>> parent of 8152b32 (muita coisa)
@@ -27383,6 +27393,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &1042298945
@@ -27395,10 +27406,15 @@ Transform:
 --- !u!4 &999877033
 Transform:
 >>>>>>> parent of 8152b32 (muita coisa)
+=======
+--- !u!4 &999877033
+Transform:
+>>>>>>> parent of 8152b32 (muita coisa)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1042298944}
@@ -27530,6 +27546,8 @@ Rigidbody2D:
 =======
 =======
 >>>>>>> parent of 8152b32 (muita coisa)
+=======
+>>>>>>> parent of 8152b32 (muita coisa)
   m_GameObject: {fileID: 999877032}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -27541,6 +27559,9 @@ Rigidbody2D:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &999877034
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 8152b32 (muita coisa)
+=======
 >>>>>>> parent of 8152b32 (muita coisa)
 =======
 >>>>>>> parent of 8152b32 (muita coisa)
@@ -27551,7 +27572,11 @@ SpriteRenderer:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1042298944}
+=======
+  m_GameObject: {fileID: 999877032}
+>>>>>>> parent of 8152b32 (muita coisa)
 =======
   m_GameObject: {fileID: 999877032}
 >>>>>>> parent of 8152b32 (muita coisa)
@@ -27593,8 +27618,13 @@ SpriteRenderer:
   m_SortingLayer: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 56d9ad9c82279b140add490487f0201e, type: 3}
+=======
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: d826448c67ac24a828938a397a088786, type: 3}
+>>>>>>> parent of 8152b32 (muita coisa)
 =======
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d826448c67ac24a828938a397a088786, type: 3}
@@ -27609,7 +27639,11 @@ SpriteRenderer:
   m_DrawMode: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 3.89, y: 5.08}
+=======
+  m_Size: {x: 1, y: 1}
+>>>>>>> parent of 8152b32 (muita coisa)
 =======
   m_Size: {x: 1, y: 1}
 >>>>>>> parent of 8152b32 (muita coisa)
@@ -27621,6 +27655,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1042298951
@@ -27638,6 +27673,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 8152b32 (muita coisa)
 =======
 >>>>>>> parent of 8152b32 (muita coisa)
 =======
@@ -30209,9 +30246,13 @@ SceneRoots:
   - {fileID: 2099600600}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1548621798}
   - {fileID: 1042298951}
   - {fileID: 1440953292}
+=======
+  - {fileID: 2042637464}
+>>>>>>> parent of 8152b32 (muita coisa)
 =======
   - {fileID: 2042637464}
 >>>>>>> parent of 8152b32 (muita coisa)
