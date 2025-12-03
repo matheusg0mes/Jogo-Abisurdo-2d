@@ -4,6 +4,11 @@ My project (14)/Library/PackageCache/com.unity.burst@1.8.11/.Runtime/libburst-ll
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+# Ignorar logs do Unity ShaderCompiler
+*.log
+Logs/
+*/Logs/
+
 My project (14)/Logs/shadercompiler-UnityShaderCompiler.exe1.log
 My project (14)/Logs/shadercompiler-UnityShaderCompiler.exe2.log
 My project (14)/Logs/AssetImportWorker0.log
@@ -40,3 +45,4 @@ My project (14)/Logs/shadercompiler-UnityShaderCompiler.exe8.log
 My project (14)/Logs/shadercompiler-UnityShaderCompiler.exe9.log
 My project (14)/UserSettings/EditorUserSettings.asset
 My project (14)/My project (14).sln
+
