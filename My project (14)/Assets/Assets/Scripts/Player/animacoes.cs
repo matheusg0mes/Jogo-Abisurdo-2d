@@ -7,12 +7,10 @@ public class animacoes : MonoBehaviour
     public Animator animacao;
     public Player player;
 
-    private bool noChao = false; // true quando toca o chão
-
     void Start()
     {
         animacao = GetComponent<Animator>();
-        player = GameObject.Find("Player").GetComponent<Player>();
+        player = GameObject.Find("Princesa").GetComponent<Player>();
     }
 
     void Update()
@@ -20,33 +18,10 @@ public class animacoes : MonoBehaviour
         float velocidadeX = Mathf.Abs(player.rb.velocity.x);
         float velocidadeY = player.rb.velocity.y;
 
-        // ======== CORRER ========
-        bool estaCorrendo = velocidadeX > 0.1f && noChao;
-        animacao.SetBool("correr", estaCorrendo);
+        bool estaNoChao = player.isGrounded; // vem do Player
 
-        // ======== PULAR ========
-        bool estaPulando = velocidadeY > 0.1f && !noChao;
-        animacao.SetBool("pulando", estaPulando);
-
-        // ======== CAIR ========
-        bool estaCaindo = velocidadeY < -0.1f && !noChao;
-        animacao.SetBool("caindo", estaCaindo);
-    }
-
-    // ======== TRIGGER ========
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.CompareTag("Chao"))
-        {
-            noChao = true;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D col)
-    {
-        if (col.CompareTag("Chao"))
-        {
-            noChao = false;
-        }
+        animacao.SetBool("correr", velocidadeX > 0.1f && estaNoChao);
+        animacao.SetBool("pulando", velocidadeY > 0.1f && !estaNoChao);
+        animacao.SetBool("caindo", velocidadeY < -0.1f && !estaNoChao);
     }
 }

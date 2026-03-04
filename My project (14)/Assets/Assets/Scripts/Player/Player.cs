@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     float coyoteTimeCounter;
 
     [Header("Checagem de Chão")]
-    public float groundCheckDistance = 0.1f;
+    public float groundCheckDistance = 0.2f;
     public LayerMask groundLayer;
 
     [Header("Combate")]
@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     bool isDefending = false;
 
     public Rigidbody2D rb;
-    bool isGrounded;
+    public bool isGrounded;
     bool faceRight = true;
     float inputX;
 
@@ -41,7 +41,6 @@ public class Player : MonoBehaviour
         if (!isAttacking && !isDefending)
         {
             inputX = Input.GetAxisRaw("Horizontal");
-            rb.velocity = new Vector2(inputX * speed, rb.velocity.y);
         }
 
         // Flipar sprite
@@ -84,6 +83,7 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(Defend());
         }
+
     }
 
     IEnumerator Attack()
@@ -118,6 +118,31 @@ public class Player : MonoBehaviour
 
         return hitLeft.collider != null || hitRight.collider != null;
     }
+
+    void FixedUpdate()
+    {
+        if (!isAttacking && !isDefending)
+        {
+            if (isGrounded)
+            {
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.3f, groundLayer);
+
+                if (hit)
+                {
+                    Vector2 slopeDirection = Vector2.Perpendicular(hit.normal).normalized;
+
+                    slopeDirection.x = Mathf.Sign(slopeDirection.x);
+
+                    rb.velocity = slopeDirection * inputX * speed;
+                }
+            }
+            else
+            {
+                rb.velocity = new Vector2(inputX * speed, rb.velocity.y);
+            }
+        }
+    }
+
 
     void Flip()
     {

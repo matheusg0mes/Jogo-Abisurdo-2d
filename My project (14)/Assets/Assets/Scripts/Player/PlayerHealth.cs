@@ -14,23 +14,37 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;   
+        currentHealth = maxHealth;
     }
 
-    public void TakeDamage (int damage){
-        if (combat != null && combat.defending){
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Debug.Log("K foi pressionado");
+            TakeDamage(1);
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (combat != null && combat.defending)
+        {
             damage /= 2;
         }
+
         currentHealth -= damage;
 
         Debug.Log("Vida atual: " + currentHealth);
 
-        if (currentHealth <= 0){
+        if (currentHealth <= 0)
+        {
             Die();
         }
     }
 
-    void Die(){
+    void Die()
+    {
         Debug.Log("A princesa morreu!");
 
         gameManager.GameOver();
